@@ -1,7 +1,7 @@
-// قائمة السيارات الأولية
+// قائمة السيارات الأولية (أضف سياراتك هنا لتظهر للجميع على الموبايل والكمبيوتر)
 let initialCars = [
     { id: 1, model: "تويوتا كامري 2024", price: 250, available: true, image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80", specs: { transmission: "أوتوماتيك", fuel: "بنزين", seats: 5 } },
-    { id: 2, model: "هيونداي إلنترا 2023", price: 180, available: false, image: "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?auto=format&fit=crop&w=800&q=80", specs: { transmission: "أوتوماتيك", fuel: "بنزين", seats: 5 } },
+    { id: 2, model: "هيونداي إلنترا 2023", price: 180, available: true, image: "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?auto=format&fit=crop&w=800&q=80", specs: { transmission: "أوتوماتيك", fuel: "بنزين", seats: 5 } },
     { id: 3, model: "مرسيدس E-Class 2024", price: 650, available: true, image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80", specs: { transmission: "أوتوماتيك", fuel: "بنزين", seats: 5 } },
     { id: 4, model: "نيسان باترول 2024", price: 450, available: true, image: "https://images.unsplash.com/photo-1624365287611-39655c65778b?auto=format&fit=crop&w=800&q=80", specs: { transmission: "أوتوماتيك", fuel: "ديزل", seats: 7 } }
 ];
